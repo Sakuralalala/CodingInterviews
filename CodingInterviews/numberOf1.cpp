@@ -17,8 +17,8 @@ public:
 		return count;
 	}
 };
-int main() {
-	SolutionForNumberOf1 solution;
-	cout << solution.numberOf1(16) << endl;
-	getchar();
-}
+//int main() {
+//	SolutionForNumberOf1 solution;
+//	cout << solution.numberOf1(16) << endl;
+//	getchar();
+//}

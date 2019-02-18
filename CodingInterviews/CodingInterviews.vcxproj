@@ -115,9 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FindKthToTail.cpp" />
     <ClCompile Include="jumpFloor.cpp" />
     <ClCompile Include="minNumberInRotateArray.cpp" />
     <ClCompile Include="numberOf1.cpp" />
+    <ClCompile Include="Power.cpp" />
+    <ClCompile Include="PrintToMaxOfNDigits.cpp" />
+    <ClCompile Include="ReOrderArray.cpp" />
+    <ClCompile Include="ReverseList.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
