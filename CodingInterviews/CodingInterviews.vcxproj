@@ -116,10 +116,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FindKthToTail.cpp" />
+    <ClCompile Include="HasSubtree.cpp" />
     <ClCompile Include="jumpFloor.cpp" />
+    <ClCompile Include="MergeListNode.cpp" />
     <ClCompile Include="minNumberInRotateArray.cpp" />
+    <ClCompile Include="MirrorTree.cpp" />
     <ClCompile Include="numberOf1.cpp" />
     <ClCompile Include="Power.cpp" />
+    <ClCompile Include="PrintMatrix.cpp" />
     <ClCompile Include="PrintToMaxOfNDigits.cpp" />
     <ClCompile Include="ReOrderArray.cpp" />
     <ClCompile Include="ReverseList.cpp" />
