@@ -51,29 +51,29 @@ public:
 		return result;
 	}
 };
-int main() {
-	int a1[] = { 1,2,3,4 };
-	int a2[] = { 5,6,7,8 };
-	int a3[] = { 9,10,11,12 };
-	int a4[] = { 13,14,15,16 };
-
-	vector<int> vec1(a1, a1 + 4);
-	vector<int> vec2(a2, a2 + 4);
-	vector<int> vec3(a3, a3 + 4);
-	vector<int> vec4(a4, a4 + 4);
-
-	vector<vector<int> > matrix;
-	matrix.push_back(vec1);
-	matrix.push_back(vec2);
-	matrix.push_back(vec3);
-	matrix.push_back(vec4);
-
-	Solution solution;
-	vector<int> result;
-	result= solution.PrintMatrix(matrix);
-
-	for (int i = 0; i < result.size(); i++) {
-		cout << result[i] << ends;
-	}
-	getchar();
-}
+//int main() {
+//	int a1[] = { 1,2,3,4 };
+//	int a2[] = { 5,6,7,8 };
+//	int a3[] = { 9,10,11,12 };
+//	int a4[] = { 13,14,15,16 };
+//
+//	vector<int> vec1(a1, a1 + 4);
+//	vector<int> vec2(a2, a2 + 4);
+//	vector<int> vec3(a3, a3 + 4);
+//	vector<int> vec4(a4, a4 + 4);
+//
+//	vector<vector<int> > matrix;
+//	matrix.push_back(vec1);
+//	matrix.push_back(vec2);
+//	matrix.push_back(vec3);
+//	matrix.push_back(vec4);
+//
+//	Solution solution;
+//	vector<int> result;
+//	result= solution.PrintMatrix(matrix);
+//
+//	for (int i = 0; i < result.size(); i++) {
+//		cout << result[i] << ends;
+//	}
+//	getchar();
+//}
