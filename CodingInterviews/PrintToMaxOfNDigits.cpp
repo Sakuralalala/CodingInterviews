@@ -15,7 +15,7 @@ public:
 
 		//从0到9
 		for (int i = 0; i < 10; i++) {
-			number[0] = i +'0';
+			number[0] = i + '0';
 			PrintToMaxOfNDigitsRecursively(number, n, 0);
 		}
 		delete[] number;
@@ -26,25 +26,21 @@ public:
 			PrintNumber(number);
 			return;
 		}
-		//当前位从0到9
 		for (int i = 0; i < 10; i++) {
-			number[index + 1] = i +'0';
+			number[index + 1] = i + '0';
 			PrintToMaxOfNDigitsRecursively(number, length, index + 1);
 		}
+		
 	}
 	void PrintNumber(char* number) {
 		int i = 0;
 		int length = strlen(number);
-		
-		for (i = 0; i < length; i++) {
-			if (number[i] != '0')
+		for (i;i<length; i++) {
+			if (number[i] != '\0')
 				break;
 		}
-		if (i != length) {
-			cout << &number[i] << endl;//前面的0不输出
-		}
-		
-		
+		if(i != length)
+			cout << &number[i] << ends;
 	}
 };
 

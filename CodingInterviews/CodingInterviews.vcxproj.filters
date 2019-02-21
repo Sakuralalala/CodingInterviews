@@ -72,5 +72,17 @@
     <ClCompile Include="CloneListNode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ConvertTreeNodeToListNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Permutation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FindKthNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MoreThanHalfNum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

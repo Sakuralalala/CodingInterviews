@@ -120,36 +120,36 @@ public:
 
 
 };
-int main() {
-	Solution solution;
-	RandomListNode* list = new RandomListNode(1);
-	RandomListNode* node1 = new RandomListNode(2);
-	RandomListNode* node2 = new RandomListNode(3);
-	RandomListNode* node3 = new RandomListNode(4);
-	list->next = node1;
-	list->random = node2;
-	node1->next = node2;
-	node1->random = node3;
-	node2->next = node3;
-	node2->random = NULL;
-	node3->next = NULL;
-	node3->random = list;
-	RandomListNode* curr = list;
-
-	/*while (curr != NULL)
-	{
-		cout << curr->val << ends;
-		if (curr->random != NULL)
-			cout << curr->random->val << ends;
-		curr = curr->next;
-	}*/
-	RandomListNode* clone1 = solution.Clone(curr);
-	while (clone1 != NULL)
-	{
-		cout << clone1->val << ends;
-		if (clone1->random != NULL)
-			cout << clone1->random->val << ends;
-		clone1 = clone1->next;
-	}
-	getchar();
-}
+//int main() {
+//	Solution solution;
+//	RandomListNode* list = new RandomListNode(1);
+//	RandomListNode* node1 = new RandomListNode(2);
+//	RandomListNode* node2 = new RandomListNode(3);
+//	RandomListNode* node3 = new RandomListNode(4);
+//	list->next = node1;
+//	list->random = node2;
+//	node1->next = node2;
+//	node1->random = node3;
+//	node2->next = node3;
+//	node2->random = NULL;
+//	node3->next = NULL;
+//	node3->random = list;
+//	RandomListNode* curr = list;
+//
+//	/*while (curr != NULL)
+//	{
+//		cout << curr->val << ends;
+//		if (curr->random != NULL)
+//			cout << curr->random->val << ends;
+//		curr = curr->next;
+//	}*/
+//	RandomListNode* clone1 = solution.Clone(curr);
+//	while (clone1 != NULL)
+//	{
+//		cout << clone1->val << ends;
+//		if (clone1->random != NULL)
+//			cout << clone1->random->val << ends;
+//		clone1 = clone1->next;
+//	}
+//	getchar();
+//}

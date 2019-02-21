@@ -116,6 +116,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CloneListNode.cpp" />
+    <ClCompile Include="ConvertTreeNodeToListNode.cpp" />
+    <ClCompile Include="FindKthNumber.cpp" />
     <ClCompile Include="FindKthToTail.cpp" />
     <ClCompile Include="FindPath.cpp" />
     <ClCompile Include="HasSubtree.cpp" />
@@ -125,7 +127,9 @@
     <ClCompile Include="MinInStack.cpp" />
     <ClCompile Include="minNumberInRotateArray.cpp" />
     <ClCompile Include="MirrorTree.cpp" />
+    <ClCompile Include="MoreThanHalfNum.cpp" />
     <ClCompile Include="numberOf1.cpp" />
+    <ClCompile Include="Permutation.cpp" />
     <ClCompile Include="Power.cpp" />
     <ClCompile Include="PrintFromTopToBottom.cpp" />
     <ClCompile Include="PrintMatrix.cpp" />
