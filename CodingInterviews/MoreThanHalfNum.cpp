@@ -39,10 +39,10 @@ public:
 			return 0;
 	}
 };
-int main() {
-	int a[] = { 1,6,6,6,8,5,6 };
-	vector<int> num(a, a + 7);
-	Solution solution;
-	cout << solution.MoreThanHalfNum(num) << ends;
-	getchar();
-}
+//int main() {
+//	int a[] = { 1,6,6,6,8,5,6 };
+//	vector<int> num(a, a + 7);
+//	Solution solution;
+//	cout << solution.MoreThanHalfNum(num) << ends;
+//	getchar();
+//}

@@ -84,5 +84,20 @@
     <ClCompile Include="MoreThanHalfNum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="FindKVector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FindGreatestSumOfSubArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberOf1Between1AndN.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintMinNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstNotRepeatingChar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

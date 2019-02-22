@@ -5,8 +5,9 @@ using namespace std;
 //快速排序
 class Solution {
 public:
-	int FindKthNumber(vector<int> &number, int left, int right, int k) {
+	int FindKthNumber(vector<int> &number, int left, int right, int k ) {
 		int pNum = left +1;
+		//k = k + 1;
 		if (left == right)
 			return number[left];
 		//查找left所在的数组位置,即是第几大
@@ -45,6 +46,7 @@ public:
 		number[i] = pNum;
 		return i;
 	}
+	//快速排序
 	void FastSort(vector<int> &number, int left, int right) {
 		if (left >= right) {
 			return;
@@ -54,15 +56,16 @@ public:
 		FastSort(number, left, i - 1);
 		FastSort(number, i + 1, right);
 	}
+	
 };
 //int main() {
 //	int a[] = { 5,4,8,3,6,9,1,2 };
 //	vector<int> num(a, a + 8);
 //	Solution solution;
+//	cout << solution.FindKthNumber(num, 0, num.size()-1, 2) << ends;
 //	//cout << solution.FindKthNumber(num, 0, num.size() - 1, 0) << ends;
-//	solution.FastSort(num, 0, num.size() - 1);
-//	for (int i = 0; i < num.size(); i++) {
-//		cout << num[i] << ends;
-//	}
+//	//solution.FastSort(num, 0, num.size() - 1);
+//	
+//	
 //	getchar();
 //}
