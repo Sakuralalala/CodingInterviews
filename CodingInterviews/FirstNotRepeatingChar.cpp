@@ -48,9 +48,9 @@ public:
 		return -1;
 	}
 };
-int main() {
-	string s = "abbca";
-	Solution solution;
-	cout << solution.FirstNotRepeatingChar2(s) << ends;
-	getchar();
-}
+//int main() {
+//	string s = "abbca";
+//	Solution solution;
+//	cout << solution.FirstNotRepeatingChar2(s) << ends;
+//	getchar();
+//}

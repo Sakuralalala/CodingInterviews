@@ -117,12 +117,15 @@
   <ItemGroup>
     <ClCompile Include="CloneListNode.cpp" />
     <ClCompile Include="ConvertTreeNodeToListNode.cpp" />
+    <ClCompile Include="FindFirstCommonNode.cpp" />
     <ClCompile Include="FindGreatestSumOfSubArray.cpp" />
     <ClCompile Include="FindKthNumber.cpp" />
     <ClCompile Include="FindKthToTail.cpp" />
     <ClCompile Include="FindKVector.cpp" />
     <ClCompile Include="FindPath.cpp" />
     <ClCompile Include="FirstNotRepeatingChar.cpp" />
+    <ClCompile Include="GetNumberOfK.cpp" />
+    <ClCompile Include="GetUglyNumber.cpp" />
     <ClCompile Include="HasSubtree.cpp" />
     <ClCompile Include="IsPopOrder.cpp" />
     <ClCompile Include="jumpFloor.cpp" />

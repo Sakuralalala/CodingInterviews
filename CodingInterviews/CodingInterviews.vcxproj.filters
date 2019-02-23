@@ -99,5 +99,14 @@
     <ClCompile Include="FirstNotRepeatingChar.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="GetUglyNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GetNumberOfK.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FindFirstCommonNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
